@@ -1,0 +1,23 @@
+{
+  "project_name": "RESQBOT",
+  "version": "7.0.0",
+  "simulation": {
+    "grid_columns": 25,
+    "grid_rows": 18,
+    "cell_size": 28,
+    "sensor_radius": 3,
+    "move_interval_seconds": 0.18
+  },
+  "swarm": {
+    "robot_count": 3,
+    "initial_battery_percent": 100,
+    "low_battery_return_threshold": 22
+  },
+  "exports": {
+    "directory": "exports",
+    "formats": [
+      "json",
+      "csv"
+    ]
+  }
+}

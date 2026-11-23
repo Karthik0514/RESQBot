@@ -1,0 +1,29 @@
+"""Central configuration and visual theme for RESQBOT."""
+CELL = 28
+COLS, ROWS = 25, 18
+MAP_X, MAP_Y = 24, 78
+PANEL_X = MAP_X + COLS * CELL + 22
+PANEL_W = 280
+WIDTH = PANEL_X + PANEL_W + 24
+HEIGHT = 820
+FPS = 60
+SENSOR_RADIUS = 3
+MOVE_INTERVAL = 0.18
+
+BG = (15, 22, 33)
+PANEL = (25, 35, 49)
+GRID = (54, 67, 82)
+UNKNOWN = (29, 39, 53)
+FLOOR = (190, 197, 202)
+WALL = (70, 78, 88)
+RUBBLE = (116, 94, 76)
+FIRE = (226, 91, 49)
+SURVIVOR = (255, 190, 65)
+ROBOT = (53, 169, 230)
+GREEN = (78, 201, 132)
+WHITE = (238, 243, 248)
+MUTED = (151, 166, 183)
+PATH = (75, 205, 145)
+BLUE = (76, 145, 230)
+
+DIRS = [(1, 0), (-1, 0), (0, 1), (0, -1)]
